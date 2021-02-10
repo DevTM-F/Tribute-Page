@@ -1,0 +1,78 @@
+{ border-sizing: border-box; }
+html { 
+  font-size:10px;
+}
+body {
+  font-family: 'Merienda One', cursive;
+  font-size: 1.7rem;
+  text-align: center;
+  line-height: 1.5;
+  color: #335632;
+  margin: 0;
+}
+img{
+  max-width: 300px;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+@media (max-width: 560px) {
+  h1 {
+    font-size: 4rem;
+    line-heigth: 1.2;
+  }
+}
+h4{
+  color: #586687;
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 8px;
+  display: block;
+  margin: 1em 40px 1em 40px;
+  line-width:;
+}
+.citation {
+  margin: 1em 640px;
+}
+@media (max-width: 1860px) {
+  .citation{
+  margin: auto 40px;
+  }
+}
+#main {
+  margin: 25px 10px;
+  border-radius: 8px;
+  background-color: #1015;
+  padding: 15px;
+  
+}
+#title {
+  color: RGBA(0,0,0,0.8);
+  margin-top: 0;
+}
+#img-div {
+  
+  text-align: center;
+  padding: 10px;
+  background-color: #FFF;
+  border-radius: 8px;
+  color: RGBA(0,0,0,0.8);
+}
+#reference {
+  font-size: 1.1rem;
+}
+#tribute-info {
+ 
+  text-align: left;
+  margin: 40px 680px 40px 680px;
+
+}
+@media (max-width: 1800px) {
+  #tribute-info {
+    margin:  100px;
+  }
+}
